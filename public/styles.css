@@ -541,21 +541,12 @@ video {
   margin: auto;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .-ml-6 {
   margin-left: -1.5rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .flex {
@@ -592,14 +583,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.min-w-\[375px\] {
-  min-width: 375px;
-}
-
-.max-w-\[1440px\] {
-  max-width: 1440px;
 }
 
 .rotate-45 {
@@ -675,11 +658,6 @@ video {
   padding-right: 0.75rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .pl-10 {
   padding-left: 2.5rem;
 }
@@ -741,10 +719,6 @@ video {
 }
 
 @media (min-width: 375px) {
-  .sm\:invisible {
-    visibility: hidden;
-  }
-
   .sm\:bottom-0 {
     bottom: 0px;
   }
@@ -757,18 +731,9 @@ video {
     margin: auto;
   }
 
-  .sm\:m-0 {
-    margin: 0px;
-  }
-
   .sm\:my-auto {
     margin-top: auto;
     margin-bottom: auto;
-  }
-
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .sm\:-ml-12 {
@@ -781,6 +746,10 @@ video {
 
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:h-\[26px\] {
@@ -803,28 +772,8 @@ video {
     width: 350px;
   }
 
-  .sm\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .sm\:min-w-\[350px\] {
-    min-width: 350px;
-  }
-
-  .sm\:min-w-\[375px\] {
-    min-width: 375px;
-  }
-
   .sm\:max-w-\[350px\] {
     max-width: 350px;
-  }
-
-  .sm\:max-w-\[375px\] {
-    max-width: 375px;
-  }
-
-  .sm\:max-w-\[400px\] {
-    max-width: 400px;
   }
 
   .sm\:grid-cols-1 {
@@ -856,10 +805,6 @@ video {
     padding: 1.5rem;
   }
 
-  .sm\:p-5 {
-    padding: 1.25rem;
-  }
-
   .sm\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -889,12 +834,16 @@ video {
     right: -110px;
   }
 
-  .md\:m-auto {
-    margin: auto;
+  .md\:block {
+    display: block;
   }
 
-  .md\:h-full {
-    height: 100%;
+  .md\:inline-block {
+    display: inline-block;
+  }
+
+  .md\:inline {
+    display: inline;
   }
 
   .md\:min-h-full {
@@ -903,10 +852,6 @@ video {
 
   .md\:w-64 {
     width: 16rem;
-  }
-
-  .md\:w-\[950px\] {
-    width: 950px;
   }
 
   .md\:max-w-\[950px\] {
@@ -927,10 +872,6 @@ video {
 
   .md\:p-5 {
     padding: 1.25rem;
-  }
-
-  .md\:leading-3 {
-    line-height: .75rem;
   }
 
   .md\:leading-7 {
