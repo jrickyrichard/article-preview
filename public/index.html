@@ -11,53 +11,41 @@
 </head>
 
 
-<body class=" flex h-screen font-Manrope bg-lightGrayishBlue md:p-5 sm:py-16 px-10 ">
+<body class="h-screen  w-full font-Manrope bg-light-grayish-blue flex justify-center items-center">
+  
+  <main class="m-auto sm:max-w-[375px] md:grid md:grid-rows-1 md:grid-cols-2 md:max-h-[400px] md:max-w-[960px]">
 
-  <main class="md:max-w-[950px] sm:max-w-[350px] sm:max-h-[535px]  grid sm:grid-cols-1 md:grid-cols-2 bg-white m-auto">
+    <article id="image-content" class="sm:rounded-t-[1rem] md:rounded-[1rem_0_0_1rem] h-[250px] md:min-h-[400px] bg-no-repeat bg-[length:cover] bg-[top] bg-[url('./images/drawers.jpg')]"></article>
 
-    <div class="sm:max-h-[200px] md:min-h-full">
-      <img class="rounded-t-md w-full h-full object-cover" src="images/drawers.jpg" alt="">
-    </div>
-    
-    <article class="grid sm:gap-3 lg:px-10 lg:py-16 sm:px-5 sm:py-10 p-5">
-      <h1 class="text-veryDarkGrayishBlue font-bold text-xl">
-        Shift the overall look and feel by adding these wonderful 
-        touches to furniture in your home
-      </h1>
-      <p class="text-desaturtedDarkBlue text-sm md:leading-7">
-        Ever been in a room and felt like something was missing? Perhaps 
-        it felt slightly bare and uninviting. I’ve got some simple tips 
-        to help you make any room feel complete.
-      </p>
-
-      <div class="flex items-center justify-between mt-4 sm:mt-0 ">
-        <div>
-          <img class="h-10 rounded-full" src="images/avatar-michelle.jpg" alt="">
-        </div>
-        <div class="sm:-ml-12 lg:-ml-32 pl-10">
-          <h2 class="text-veryDarkGrayishBlue font-bold">Michelle Appleton</h2>
-          <p class="text-desaturtedDarkBlue">28 Jun 2020</p>
-        </div>
-        <div class="m-8 relative">
-          <div id="share" class="cursor-pointer hover:bg-desaturtedDarkBlue bg-lightGrayishBlue w-10 h-10 rounded-full flex items-center justify-center">
-            <svg class="hover:fill-white fill-veryDarkGrayishBlue" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+    <article id="text-content" class=" rounded-b-[1rem] md:rounded-r-[1rem] bg-white py-[2.5rem] px-[2rem] grid gap-[1rem] md:leading-[2.25rem]">
+      <h1 class="text-desaturated-dark-blue font-bold text-lg md:text-[1.5rem]">Shift the overal look and feel by adding these wonderful touches to furniture in your home</h1>
+      <p class="text-desaturated-dark-blue">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting.I've got some simple tips to help you make any room feel complete</p>
+      <section class="flex items-center justify-between mt-[1rem] md:mt-0">
+        <img class="sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px] rounded-full" src="./images/avatar-michelle.jpg" alt="profile avatar">
+        <section class="ml-[-4rem] lg:ml-[-6rem]">
+          <h2 class="font-bold  text-desaturated-dark-blue">Michelle Appleton</h2>
+          <p class="text-grayish-blue">28 Jun 2020</p>
+        </section>
+        <section id="share" class=" z-20 hover:cursor-pointer active:rotate-[365deg] relative bg-light-grayish-blue  active:bg-desaturated-dark-blue w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem] rounded-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+        </section>
+        <section id="pop" class="invisible hover:cursor-pointer transition-all duration-150 delay-100 ease-in-out flex items-center z-0 rounded-[0_0_1rem_1rem] absolute bg-very-dark-grayish-blue h-[60px] w-[380px] bottom-[3rem] sm:translate-x-[-2rem] md:translate-x-[17rem] md:rounded-[0.5rem] md:w-[235px] md:h-[48px] md:bottom-[15rem] md:p-[0.7rem]">
+          <p class="text-grayish-blue uppercase px-6 md:text-[0.85rem] md:pl-2 md:tracking-[0.4rem] ">share</p>
+          <ul class="flex">
+            <li class="px-3 md:px-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#FFF" d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"/></svg></li>
+            <li class="px-3 md:px-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17"><path fill="#FFF" d="M20 2.172a8.192 8.192 0 01-2.357.646 4.11 4.11 0 001.804-2.27 8.22 8.22 0 01-2.605.996A4.096 4.096 0 0013.847.248c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 011.392 1a4.109 4.109 0 001.27 5.478 4.086 4.086 0 01-1.858-.513c-.045 1.9 1.318 3.679 3.291 4.075a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.833 2.849A8.25 8.25 0 010 14.658a11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.663-12.205A8.354 8.354 0 0020 2.172z"/></svg></li>
+            <li class="px-3 md:px-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#FFF" d="M10 0C4.478 0 0 4.477 0 10c0 4.237 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.182-.78 1.172-4.97 1.172-4.97s-.299-.6-.299-1.486c0-1.39.806-2.428 1.81-2.428.852 0 1.264.64 1.264 1.408 0 .858-.545 2.14-.828 3.33-.236.995.5 1.807 1.48 1.807 1.778 0 3.144-1.874 3.144-4.58 0-2.393-1.72-4.068-4.177-4.068-2.845 0-4.515 2.135-4.515 4.34 0 .859.331 1.781.745 2.281a.3.3 0 01.069.288l-.278 1.133c-.044.183-.145.223-.335.134-1.249-.581-2.03-2.407-2.03-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.473 6.165 5.776 0 3.447-2.173 6.22-5.19 6.22-1.013 0-1.965-.525-2.291-1.148l-.623 2.378c-.226.869-.835 1.958-1.244 2.621.937.29 1.931.446 2.962.446 5.522 0 10-4.477 10-10S15.522 0 10 0z"/></svg></li>
+          </ul>
+          <div id="arrow-down" class="-z-10 absolute h-0 w-0 bottom-[-1rem] right-[8rem] border-l-[2rem] border-l-transparent border-b-[5rem] border-b-transparent border-t-[2rem] md:border-t-very-dark-grayish-blue border-t-transparent rotate-[135deg]">
           </div>
-        <div class="md:w-64 sm:w-[350px] sm:p-6 md:p-4 md:rounded-lg rounded-b-lg shadow-lg pop invisible absolute  md:bottom-[60px] md:right-[-110px] flex justify-between bg-veryDarkGrayishBlue sm:bottom-0 sm:right-[-53px]">
-            <p class="text-grayishBlue uppercase text-sm tracking-[0.2rem] relative px-3">Share
-              <div class="sm:hidden absolute bottom-[-9px] right-[120px] w-4 h-4 bg-veryDarkGrayishBlue -ml-6 rotate-45"></div>
-            </p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#FFF" d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17"><path fill="#FFF" d="M20 2.172a8.192 8.192 0 01-2.357.646 4.11 4.11 0 001.804-2.27 8.22 8.22 0 01-2.605.996A4.096 4.096 0 0013.847.248c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 011.392 1a4.109 4.109 0 001.27 5.478 4.086 4.086 0 01-1.858-.513c-.045 1.9 1.318 3.679 3.291 4.075a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.833 2.849A8.25 8.25 0 010 14.658a11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.663-12.205A8.354 8.354 0 0020 2.172z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#FFF" d="M10 0C4.478 0 0 4.477 0 10c0 4.237 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.182-.78 1.172-4.97 1.172-4.97s-.299-.6-.299-1.486c0-1.39.806-2.428 1.81-2.428.852 0 1.264.64 1.264 1.408 0 .858-.545 2.14-.828 3.33-.236.995.5 1.807 1.48 1.807 1.778 0 3.144-1.874 3.144-4.58 0-2.393-1.72-4.068-4.177-4.068-2.845 0-4.515 2.135-4.515 4.34 0 .859.331 1.781.745 2.281a.3.3 0 01.069.288l-.278 1.133c-.044.183-.145.223-.335.134-1.249-.581-2.03-2.407-2.03-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.473 6.165 5.776 0 3.447-2.173 6.22-5.19 6.22-1.013 0-1.965-.525-2.291-1.148l-.623 2.378c-.226.869-.835 1.958-1.244 2.621.937.29 1.931.446 2.962.446 5.522 0 10-4.477 10-10S15.522 0 10 0z"/></svg>
-            <div class="sm:bg-desaturtedDarkBlue  sm:my-auto sm:w-[26px] sm:h-[26px] sm:rounded-full sm:flex sm:items-center md:invisible">
-              <svg class="sm:fill-white md:invisible sm:m-auto" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
-            </div>
-          </div>
-        </div>
-      </div>
+        </section>
+
+      </section>
     </article>
+    
   </main>
 
   <script src="script.js"></script>
 </body>
 </html>
+

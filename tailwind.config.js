@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        veryDarkGrayishBlue: 'hsl(217, 19%, 35%)',
-        desaturtedDarkBlue: 'hsl(214, 17%, 51%)',
-        grayishBlue: 'hsl(212, 23%, 69%)',
-        lightGrayishBlue: 'hsl(210, 46%, 95%)'
+        "very-dark-grayish-blue": 'hsl(217, 19%, 35%)',
+        "desaturated-dark-blue": 'hsl(214, 17%, 51%)',
+        "grayish-blue": 'hsl(212, 23%, 69%)',
+        "light-grayish-blue": 'hsl(210, 46%, 95%)'
       },
       fontFamily: {
         Manrope: ['Manrope', 'sans-serif']
